@@ -219,13 +219,18 @@ button, input, textarea, select {
   button, .btn, .button, a.btn {
     touch-action: manipulation;
   }
-}
-@media (max-width: 520px) {
-  .header .menu {
-    width: 42px;
-    flex: 0 0 42px;
-    margin-left: auto;
-    padding: 0;
-    display: block;
+@media (max-width: 780px) {
+  .header-inner > .menu {
+    width: 42px !important;
+    min-width: 42px !important;
+    max-width: 42px !important;
+    flex: 0 0 42px !important;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+  }
+
+  .header-inner {
+    justify-content: flex-start !important;
   }
 }
