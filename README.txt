@@ -1,0 +1,1 @@
+Fotos reales integradas. logo.jpg es el logo; trabajo-01.jpg a trabajo-05.jpg son fotografías reales de trabajos. Puedes reemplazarlas manteniendo los mismos nombres.
